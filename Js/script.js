@@ -1,12 +1,7 @@
 //  Delcaring Variables
 const mainEl = document.querySelector('main');
-
 mainEl.style.backgroundColor = 'var(--main-bg)';
-
-// const Ti = document.createElement('h1');
 mainEl.innerHTML = ('<h1> DOM Manipulation </h1>');
-// mainEl.appendChild(Ti);
-
 mainEl.className = 'flex-ctr';
 
 const topMenuEl = document.querySelector('nav'); 
